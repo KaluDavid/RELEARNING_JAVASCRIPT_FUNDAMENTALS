@@ -1,0 +1,75 @@
+NOTE: THIS CHALLENGE IS A STRICTLY PROMPTED CHALLENGE FROM CHATGPT
+
+👉 Here's all about the challenge
+Hey buddy! Since you're looking for a robust and challenging task on conditional statements, I've got a multi-level challenge for you. This task will test everything you've learned so far—comparison operators, logical operators, truthy/falsy values, the ternary operator, `switch`, and if-else statements.
+
+---
+
+ 🛠 Challenge: "Smart ATM System"
+
+You're building a basic ATM system that will:  
+✅ Check user PIN before granting access  
+✅ Allow the user to withdraw, deposit, or check balance  
+✅ Prevent overdrawing and handle invalid inputs
+
+---
+
+ 🔹 Requirements
+
+1. User Authentication:
+
+   - Ask for a 4-digit PIN (e.g., `1234`).
+   - If correct, proceed; otherwise, deny access.
+
+2. ATM Options:
+
+   - Show a menu:
+     ```
+     1. Check Balance
+     2. Withdraw Money
+     3. Deposit Money
+     4. Exit
+     ```
+   - Use `switch` or `if...else if` to handle user input.
+
+3. Conditions to Check:
+
+   - If checking balance, show the current balance.
+   - If withdrawing, check if there’s enough money before allowing.
+   - If depositing, only accept positive amounts.
+   - If exiting, show a goodbye message.
+
+4. Bonus Features (for extra challenge):
+   - Use the ternary operator in at least one case.
+   - Use logical operators to validate inputs (e.g., checking if the user enters a number).
+   - Use truthy/falsy values to prevent empty inputs.
+
+---
+
+ 🔹 Expected Output Example
+
+```
+Welcome to the Smart ATM!
+Enter your 4-digit PIN: 1234
+
+✅ PIN Correct! Access Granted.
+
+Select an option:
+1. Check Balance
+2. Withdraw Money
+3. Deposit Money
+4. Exit
+
+Enter option: 2
+Enter withdrawal amount: 500
+
+✅ Withdrawal successful! Your new balance is: $500
+```
+
+---
+
+ 🧑‍💻 Now, Try to Code It!
+
+🔥 Can you implement this using all the concepts you’ve learned?
+
+If you get stuck, let me know, and I'll guide you! 🚀
