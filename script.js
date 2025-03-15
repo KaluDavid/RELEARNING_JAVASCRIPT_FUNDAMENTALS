@@ -1,7 +1,19 @@
 "use strict";
 
+const friends = [2, "joy", 9];
+const dhavesFriends = friends.every((yp) =>
+  console.log(typeof yp === "number")
+);
+
+if (typeof yp === "number") {
+  console.log("Yes all are strings");
+} else {
+  console.log("There is a falsy value ");
+}
+
 // Javascript methods
 // String methods
+
 console.log("hey Buddy");
 
 const name = "Dhave";

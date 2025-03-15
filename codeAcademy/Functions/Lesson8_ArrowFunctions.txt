@@ -1,0 +1,22 @@
+/**
+ * Arrow Functions
+3 min
+ES6 introduced arrow function syntax, a shorter way to write 
+Preview: Docs Loading link description
+functions
+ by using the special “fat arrow” () => notation.
+
+Preview: Docs Arrow function expressions were introduced in ES6. These expressions are a clean and concise alternative to the traditional function syntax.
+
+
+Arrow functions
+ remove the need to type out the keyword function every time you need to create a function. Instead, you first include the parameters inside the ( ) and then add an arrow => that points to the function body surrounded in { } like this:
+
+const rectangleArea = (width, height) => {
+  let area = width * height;
+  return area;
+};
+
+
+It’s important to be familiar with the multiple ways of writing functions because you will come across each of these when reading other JavaScript code.
+ */

@@ -1,0 +1,61 @@
+/**
+ * Return
+11 min
+When a function is called, the computer will run through the function’s code and evaluate the result. By default, the resulting value is undefined.
+
+function rectangleArea(width, height) {
+  let area = width * height;
+}
+console.log(rectangleArea(5, 7)) // Prints undefined
+
+
+In the code example, we defined our function to calculate the area of a width and height parameter. Then rectangleArea() is invoked with the arguments 5 and 7. But when we went to print the results we got undefined. Did we write our function wrong? No! In fact, the function worked fine, and the computer did calculate the area as 35, but we didn’t capture it. So how can we do that? With the keyword return!
+
+https://content.codecademy.com/courses/learn-javascript-functions/Diagram/function%20return.svg
+
+To pass back information from the function call, we use a 
+Preview: Docs Functions are reusable pieces of code that perform tasks, process data, and possibly return values.
+return statement
+. To create a return statement, we use the return keyword followed by the value that we wish to return. Like we saw above, if the value is omitted, undefined is returned instead.
+
+When a return statement is used in a function body, the execution of the function is stopped and the code that follows it will not be executed. Look at the example below:
+
+function rectangleArea(width, height) {
+  if (width < 0 || height < 0) {
+    return 'You need positive integers to calculate area!';
+  }
+  return width * height;
+}
+
+
+If an argument for width or height is less than 0, then rectangleArea() will return 'You need positive integers to calculate area!'. The second return statement width * height will not run.
+
+The return keyword is powerful because it allows functions to produce an output. We can then save the output to a variable for later use.
+ */
+
+// Furthermore
+/**
+ * The `return` keyword is used in a function to send a value back to the place where the function was called. 
+
+Reasons to use `return`:
+1. **Output**: Allows a function to produce a result that can be used elsewhere in the code.
+2. **End Execution**: Stops the function's execution once the `return` statement is reached.
+
+When to use `return`:
+- When a function needs to provide a result, like a calculation or a processed value.
+- When you want to exit a function early based on a condition. 
+
+For example, a function that calculates the sum of two numbers would use `return` to provide the sum.
+ */
+
+/**
+ * No, you don't only use a return statement when a function has parameters; you use it to return a value from a function, regardless of whether it has parameters or not. 
+Here's a more detailed explanation: 
+Purpose of return:
+The primary purpose of the return statement in programming is to send a value back to the part of the code that called the function.
+Functions with parameters:
+A function can have parameters (inputs) and still use a return statement to send a result back.
+Functions without parameters:
+You can also have functions that don't take any parameters, but still use a return statement to send a result back.
+
+ */
